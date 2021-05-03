@@ -11,3 +11,13 @@ headOne.addEventListener('mouseout',function(){
     headOne.textContent = "HOVER OVER ME";
     headOne.style.color = 'black';
 })
+
+headTwo.addEventListener('click', function(){
+    headTwo.textContent = "Clicked";
+    headTwo.style.color = 'red';
+})
+
+headThree.addEventListener('dblclick', function(){
+    headThree.textContent = "Double Clicked";
+    headThree.style.color = 'red';
+})
